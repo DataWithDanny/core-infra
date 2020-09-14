@@ -30,7 +30,5 @@ services:
       - db
     ports:
       - "8787:8787"
-    volumes:
-      - ./R:/home/rstudio
     environment:
       PASSWORD: 'DataWithDanny'

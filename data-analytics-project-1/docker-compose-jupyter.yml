@@ -30,8 +30,6 @@ services:
       - db
     ports:
       - "8888:8888"
-    volumes:
-      - ./Python:/home/jovyan
     command: "start-notebook.sh \
         --NotebookApp.allow_password_change=True \
         --NotebookApp.token='DataWithDanny'"
